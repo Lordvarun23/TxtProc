@@ -1,0 +1,13 @@
+LICENSE.txt
+setup.py
+TxtProc/src/TxtProc.egg-info/PKG-INFO
+TxtProc/src/TxtProc.egg-info/SOURCES.txt
+TxtProc/src/TxtProc.egg-info/dependency_links.txt
+TxtProc/src/TxtProc.egg-info/requires.txt
+TxtProc/src/TxtProc.egg-info/top_level.txt
+TxtProc/src/TxtProc.py
+TxtProc/src/TxtProc.egg-info/PKG-INFO
+TxtProc/src/TxtProc.egg-info/SOURCES.txt
+TxtProc/src/TxtProc.egg-info/dependency_links.txt
+TxtProc/src/TxtProc.egg-info/requires.txt
+TxtProc/src/TxtProc.egg-info/top_level.txt
