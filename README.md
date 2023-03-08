@@ -13,7 +13,7 @@ This package includes the following features:
 ## Installation
 
 To install TxtProc, simply run the following command in your terminal:
-  `pip install -i https://test.pypi.org/simple/ TxtProc`
+  `pip install -i https://test.pypi.org/simple/TxtProc`
   
 ## Usage
 ```
