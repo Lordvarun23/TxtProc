@@ -16,15 +16,15 @@ To install TxtProc, simply run the following command in your terminal:
   pip install -i https://test.pypi.org/simple/ TxtProc
   
 ## Usage
+'''
 import TxtProc as tp
 
-# Text cleaning and normalization
 df = pd.read_csv("https://raw.githubusercontent.com/the-fang/Spam-mail-filtering/master/spamham.csv")
 proc = tp.Preprocess(df,"Message","Category")
 final = proc.preprocess()
-
+'''
 ### Output
-
+'''
 
 >>>>Step 1: Removing Punctuations
 >>>>Step 1 Successfully completed
@@ -41,7 +41,7 @@ final = proc.preprocess()
 >>>>Step 7: Bag of words
 >>>>Step 7 Successfully completed
 >>>>All text Preprocessing completed.
-
+'''
 
 ## License
 
