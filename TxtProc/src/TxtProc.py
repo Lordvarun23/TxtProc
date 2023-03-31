@@ -89,7 +89,7 @@ class Preprocess:
 
         vectorizer = CountVectorizer(stop_words='english')
         X = vectorizer.fit_transform(data["msg_lemmatized"])
-        df_bow_sklearn = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names())
+        df_bow_sklearn = pd.DataFrame(X.toarray(), columns=vectorizer.get_feature_names_out())
         df_bow_sklearn[self.y_col] = data[self.y_col]
 
         print(">>>>Step 7 Successfully completed")
